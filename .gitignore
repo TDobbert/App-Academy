@@ -69,3 +69,6 @@ yarn-debug.log*
 /public/uploads
 
 tmp/cache/bootsnap/compile-cache/**
+Rails/.DS_Store
+Rails/art_share_API/tmp/cache/bootsnap/compile-cache/
+Rails/first_routes_and_controllers/tmp/
