@@ -1,7 +1,11 @@
 # app/controllers/users_controller.rb
 class UsersController < ApplicationController
   def index
-    render json: User.all
+    if params[:username]
+      render json: User.where(username: params[:username])
+    else
+      render json: User.all
+    end
   end
 
   def create
@@ -41,6 +45,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:name, :email)
+    params.require(:user).permit(:username)
   end
 end
