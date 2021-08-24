@@ -72,3 +72,10 @@ tmp/cache/bootsnap/compile-cache/**
 Rails/.DS_Store
 Rails/art_share_API/tmp/cache/bootsnap/compile-cache/
 Rails/first_routes_and_controllers/tmp/
+../../.DS_Store
+../../.gitignore.swp
+../../CSS/.DS_Store
+log/development.log
+tmp/cache/
+tmp/miniprofiler/
+tmp/restart.txt
